@@ -1,1 +1,77 @@
-<h1>It works</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hamid | Portfolio</title>
+  <meta name="description" content="Portfolio site for Hamid." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <div class="logo">Hamid</div>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <h1>Building security-minded software.</h1>
+      <p>Computer Science (cybersecurity focus). Projects, writeups, and stuff I’m working on.</p>
+      <div class="cta">
+        <a class="btn" href="#projects">See projects</a>
+        <a class="btn outline" href="#contact">Contact</a>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Real-Time Oyster Detection (YOLO)</h3>
+          <p>Web app for image/video/webcam detection with YOLO models.</p>
+          <div class="cardlinks">
+            <a href="#" aria-disabled="true">Demo (soon)</a>
+            <a href="#" aria-disabled="true">Code (soon)</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>VPN Project</h3>
+          <p>Course project on VPNs: concepts, protocols, and tradeoffs.</p>
+          <div class="cardlinks">
+            <a href="#" aria-disabled="true">Writeup (soon)</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m Hamid. I’m into cybersecurity + building practical systems. I like projects that are hands-on and measurable.
+      </p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>
+        <a href="#" aria-disabled="true">LinkedIn</a> ·
+        <a href="#" aria-disabled="true">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Hamid</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
